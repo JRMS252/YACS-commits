@@ -91,7 +91,42 @@ const AboutUsPage: React.FC = () => {
 
             {/* Footer Section */}
 
+            <footer className="bg-neutral-950 py-10 text-sm text-gray-400">
 
+                <div className="max-w-5xl mx-auto grid grid-cols2 md:grid-cols-4 gap-6 text-center md:text-left">
+
+                    <div className="space-y-2">
+                        <p className="uppercase tracking-wide text-gray-300">Features</p>
+                        <p>Schedule</p>
+                        <p>Explore</p>
+                        <p>Finals</p>
+                        <p>Professors</p>
+                        <p>Pathways</p>
+                        <p>Prerequisites</p>
+                        <p>Degree Planner</p>
+                        <p>My Account</p>
+                    </div>
+
+                    <div className="space-y-2">
+                        <p className="uppercase tracking-wide text-gray-300">Support</p>
+                        <p>Request A Feature</p>
+                        <p>Report a Bug</p>
+                    </div>
+
+                    <div>
+                        <p className="uppercase tracking-wide text-gray-300">Resources</p>
+                        <p>GitHub</p>
+                        <p>About RCOS</p>
+                        <p>About The YACS Team</p>
+                    </div>
+
+                    <div className="flex items-center justify-center md:justify-end">
+                        <div className="bg-gray-800 px-4 py-2 rounded-md font-semibold">RCOS</div>
+                    </div>
+
+                </div>
+
+            </footer>
 
         </div>
     );
