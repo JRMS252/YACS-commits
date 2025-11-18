@@ -122,40 +122,39 @@ const AboutUsPage: React.FC = () => {
                 <div className="max-w-5xl mx-auto grid grid-cols2 md:grid-cols-4 gap-6 text-center md:text-left">
 
                     {/* Links To Other Features / Pages */}
-                    {/* Not Working, Placeholder Text For Now */}
+                    {/* NOTE: ExplorePage.tsx, FinalsPage.tsx, ProfessorsPage.tsx, and PrerequisitesPage.tsx do not exist as of 11/18/2025 */}
 
                     <div className="space-y-2">
                         <p className="uppercase tracking-wide text-gray-300">Features</p>
-                        <p>Schedule</p>
-                        <p>Explore</p>
-                        <p>Finals</p>
-                        <p>Professors</p>
-                        <p>Pathways</p>
-                        <p>Prerequisites</p>
-                        <p>Degree Planner</p>
-                        <p>My Account</p>
+                        <a href="/HomePage.tsx" className="hover:text-white">Schedule</a>
+                        <a href="/ExplorePage.tsx" className="hover:text-white">Explore</a>
+                        <a href="/FinalsPage.tsx" className="hover:text-white">Finals</a>
+                        <a href="/ProfessorsPage.tsx" className="hover:text-white">Professors</a>
+                        <a href="https://hasspathways.com" className="hover:text-white">Explore HASS Pathways</a>
+                        <a href="/PrerequisitesPage.tsx" className="hover:text-white">Prerequisites</a>
+                        <a href="/FourYearPlannerPage.tsx" className="hover:text-white">Four-Year Degree Planner</a>
+                        <a href="/ProfilePage.tsx" className="hover:text-white">View Proile</a>
                     </div>
 
                     {/* Links To Support Pages */}
-                    {/* Not Working, Placeholder Text For Now */}
+                    {/* NOTE: FeatureRequestPage.tsx and BugReport.tsx do not exist as of 11/18/2025 */}
 
                     <div className="space-y-2">
                         <p className="uppercase tracking-wide text-gray-300">Support</p>
-                        <p>Request A Feature</p>
-                        <p>Report a Bug</p>
+                        <a href="/FeatureRequestPage.tsx" className="hover:text-white">Request a Feature</a>
+                        <a href="/BugReport.tsx" className="hover:text-white">Report a Bug</a>
                     </div>
 
                     {/* Links To External Resource Pages */}
-                    {/* Not Working, Placeholder Text For Now */}
 
                     <div>
                         <p className="uppercase tracking-wide text-gray-300">Resources</p>
-                        <p>GitHub</p>
-                        <p>About RCOS</p>
+                        <a href="https://github.com/maggietrebilcock/yacs/tree/main" className="hover:text-white">YACS GitHub</a>
+                        <a href="https://new.rcos.io/handbook/?semester=202508" className="hover:text-white">About RCOS</a>
                     </div>
 
                     {/* RCOS Logo In Bottom Left */}
-                    {/* Doesn't Have PNG, Just Text For Now */}
+                    {/* Don't Have PNG, Just Text For Now */}
 
                     <div className="flex items-center justify-center md:justify-end">
                         <div className="bg-gray-800 px-4 py-2 rounded-md font-semibold">RCOS</div>
